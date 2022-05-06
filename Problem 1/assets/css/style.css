@@ -1,0 +1,95 @@
+body {
+  background: #ffa600;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  height: 100%;
+}
+
+.stopwatch_wrp {
+  width: 800px;
+  margin: 30px auto;
+  color: #fff;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 2.6em;
+  text-transform: uppercase;
+}
+
+#seconds,
+#milliseconds {
+  font-size: 2em;
+}
+
+button {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -khtml-border-radius: 5px;
+  background: #ffa600;
+  color: #fff;
+  border: solid 1px #fff;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 15px 5px;
+  width: 100px;
+  margin: 10px;
+  font-size: 17px;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+button:hover {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  background: rgb(0, 0, 0);
+  border: solid 1px #fff;
+  color: #ffa600;
+}
+
+.clock_wrp {
+  width: 300px;
+  background-color: #fff;
+  padding: 18px;
+  border-radius: 10px;
+  margin: 50px auto;
+}
+
+.clock_wrp h2 {
+  font-weight: 600;
+  font-size: 23px;
+  text-align: center;
+}
+
+div#clock {
+  text-align: center;
+  padding: 10px;
+  color: #000;
+  background-color: #ffa600;
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: 700;
+
+}
+
+div#date {
+  text-align: center;
+  margin: 20px 0;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: #000;
+  padding: 10px 10px;
+  border-radius: 5px;
+
+}
+.button_wrp{
+  width: fit-content;
+  margin: 0 auto;
+}
